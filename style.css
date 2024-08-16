@@ -1,0 +1,44 @@
+
+/* style universel */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    min-height: 100vh;
+}
+
+:root {
+    /* Couleurs */
+    --couleur-primaire: #A0522D; /* Marron chocolat */
+    --couleur-secondaire: #FFD700; /* Or */
+    --couleur-arriere-plan: #FFF8F0; /* Blanc cassé */
+    --couleur-texte-principal: #333333; /* Gris foncé */
+    --couleur-texte-secondaire: #666666; /* Gris clair */
+    --couleur-accent: #FF4500; /* Rouge orangé */
+
+    /* Polices */
+    --police-principale: 'Playfair Display', serif; /* Élégante et classique */
+    --police-secondaire: 'Roboto', sans-serif; /* Moderne et lisible */
+
+    /* Espacements */
+    --espace-standard: 16px; /* Espace de base */
+    --espace-large: 32px; /* Espace plus grand */
+    
+    /* Ombres */
+    --ombre-standard: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    --ombre-hover: 0 4px 16px rgba(0, 0, 0, 0.2); /* Ombre au survol */
+
+    /* Bordures */
+    --bordure-standard: 1px solid var(--couleur-primaire); /* Bordure standard */
+    --bordure-radius: 8px; /* Coins arrondis */
+}
